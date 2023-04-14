@@ -3,7 +3,7 @@ import { FaFeather } from "react-icons/fa";
 import { useRouter } from "next/router";
 
 import useLoginModal from "@/hooks/useLoginModal";
-import useCurrentUser from "@/hooks/useCurrentUser";
+// import useCurrentUser from "@/hooks/useCurrentUser";
 
 const SidebarTweetButton = () => {
   const router = useRouter();
