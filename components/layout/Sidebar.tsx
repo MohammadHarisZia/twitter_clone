@@ -17,13 +17,13 @@ const Sidebar = () => {
     },
     {
       label: "Notifications",
-      href: "/notificaitons",
+      href: "/notifications",
       icon: BsBellFill,
       auth: true,
     },
     {
       label: "Profile",
-      href: "/users/123",
+      href: `/users/${currentUser?.id}`,
       icon: FaUser,
       auth: true,
     },
