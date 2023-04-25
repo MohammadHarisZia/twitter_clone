@@ -1,3 +1,9 @@
+export const config = {
+  api: {
+    responseLimit: false,
+  },
+};
+
 import { NextApiRequest, NextApiResponse } from "next";
 
 import prisma from "@/libs/prismadb";
